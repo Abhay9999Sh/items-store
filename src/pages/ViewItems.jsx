@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { getAllItems } from "../api/ItemsApi";
 import "../../public/ViewItems.css";
 
-const IMG_BASE = import.meta.env.VITE_IMG_BASE || "https://item-store-backend.onrender.com/";
+const IMG_BASE = import.meta.env.VITE_IMG_BASE ;
 
 const ViewItems = ({ items, setItems }) => {
   const [loading, setLoading] = useState(true);

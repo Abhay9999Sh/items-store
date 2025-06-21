@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams, NavLink } from "react-router-dom";
 import { getItem, enquiryItem } from "../api/ItemsApi";
 import "../../public/ItemDetails.css";
 
-const IMG_BASE = import.meta.env.VITE_IMG_BASE || "https://item-store-backend.onrender.com/";
+const IMG_BASE = import.meta.env.VITE_IMG_BASE ;
 
 const ItemDetails = () => {
   const { itemId } = useParams();
