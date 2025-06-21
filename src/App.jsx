@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import React, { useState } from "react";
+import { useState } from "react";
 import Layout from "./components/Layout";
 import ViewItems from "./pages/ViewItems";
 import AddItem from "./pages/AddItem";
